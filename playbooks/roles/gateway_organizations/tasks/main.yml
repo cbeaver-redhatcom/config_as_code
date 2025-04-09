@@ -43,4 +43,5 @@
   vars:
     __operation: "{{ operation_translate[__gateway_organizations_job_async_results_item.state | default(platform_state) | default('present')] }}"
     ansible_async_dir: "{{ aap_configuration_async_dir }}"
+    aap_validate_certs: "{{ aap_validate_certs }}"
 ...
