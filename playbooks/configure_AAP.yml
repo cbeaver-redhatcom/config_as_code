@@ -4,6 +4,7 @@
   connection: local
   vars:
     aap_validate_certs: false
+    aap_hostname: aap25.beaverdam.com
   tasks:
     - name: Include vars from configs directory
       ansible.builtin.include_vars:
